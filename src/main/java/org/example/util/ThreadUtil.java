@@ -49,6 +49,9 @@ public class ThreadUtil {
         }
     }
 
+    /**
+     * 当前线程信息
+     */
     public static void Print(String msg){
         System.out.println("["+Thread.currentThread().getName()+"]: "+msg);
     }
